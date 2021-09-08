@@ -30,7 +30,7 @@ public class tmain {
 
 > The argument msgsz specifies the size in bytes of mtext. The received message shall be truncated to msgsz bytes if it is larger than msgsz and (msgflg & MSG_NOERROR) is non-zero.
 
-测试代码来自我的“[关于第四十六章的练习（一）](https://github.com/ysouyno/study_notes_the_linux_programming_interface/tree/dev#%E5%85%B3%E4%BA%8E%E7%AC%AC%E5%9B%9B%E5%8D%81%E5%85%AD%E7%AB%A0%E7%9A%84%E7%BB%83%E4%B9%A0%E4%B8%80)”，权限回忆了，另还练了下如何写`Makefile`。
+测试代码来自我的“[关于第四十六章的练习（一）](https://github.com/ysouyno/study_notes_the_linux_programming_interface/tree/dev#%E5%85%B3%E4%BA%8E%E7%AC%AC%E5%9B%9B%E5%8D%81%E5%85%AD%E7%AB%A0%E7%9A%84%E7%BB%83%E4%B9%A0%E4%B8%80)”，权且当做回忆了，另还练了下如何写`Makefile`。
 
 ``` shellsession
 [ysouyno@arch t_jni_systemv_msg]$ ./svmsg_server
